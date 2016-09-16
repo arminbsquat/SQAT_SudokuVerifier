@@ -21,15 +21,15 @@ public class SudokuVerifier {
 		
 		while(successCounter != 9) 
 		{
-			
+			if(!(this.noReplicaInSingleRow())) {
+				return false;
+			} else 
+			{
+				this.offset = this.offset + 9;
+				successCounter++;
+			}
 		}
-		if(!(this.noReplicaInSingleRow())) {
-			return false;
-		} else 
-		{
-			this.offset = this.offset + 9;
-			successCounter++;
-		}
+
 
 		
 	
