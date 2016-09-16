@@ -9,7 +9,7 @@ public class SudokuVerifierTest {
 
 
 	
-	//@Test
+	@Test
 	public void test_convertToIntArray() {
 		// do this better
 		SudokuVerifier sV = new SudokuVerifier(); 
@@ -18,7 +18,7 @@ public class SudokuVerifierTest {
 		assertEquals(sV.candidateSolutionIntArray[0], Integer.parseInt("4"));
 	}
 	
-	//@Test
+	@Test
 	public void test_allNumbersPositive() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
@@ -32,21 +32,21 @@ public class SudokuVerifierTest {
 		assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3)));
 	}
 	
-	//@Test
+	@Test
 	public void test_noReplicaInEveryColumn_noneFound() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3), is(-4)));
 	}
 	
-	//@Test
+	@Test
 	public void test_noReplicaInEveryColumn_replicaFound() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 		assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3), is(-4)));
 	}
 	
-	//@Test 
+	@Test 
 	public void test_noReplicaInEveryRow_replicaFound() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";

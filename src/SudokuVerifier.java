@@ -94,6 +94,7 @@ public class SudokuVerifier {
 		int searchForThisNumber;
 		//test row for duplicates
 		for(int singleColumnCounter = 0; singleColumnCounter < singleColumn.length; singleColumnCounter++) {
+			int replica = 0;
 			searchForThisNumber = singleColumn[singleColumnCounter];
 			for(int j = 0; j < singleColumn.length; j++ ) {
 				if(singleColumn[j] == searchForThisNumber) {
