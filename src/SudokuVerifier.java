@@ -70,6 +70,7 @@ public class SudokuVerifier {
 		return true;
 	}
 	
+	// assumes that all numbers are positive
 	public void convertToIntArray(String candidateSolutionString) {
 			char[] candidateSolutionCharArray = candidateSolutionString.toCharArray();
 			this.candidateSolutionIntArray = new int[candidateSolutionCharArray.length];
