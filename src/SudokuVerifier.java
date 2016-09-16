@@ -20,6 +20,8 @@ public class SudokuVerifier {
 	
 	}
 	
+	public void noReplicaInSingleRow()
+	
 	public boolean allNumbersPositive() {
 		char[] candidateSolutionCharArray = this.candidateSolutionString.toCharArray();
 		for(int i = 0; i < candidateSolutionCharArray.length; i++) {
