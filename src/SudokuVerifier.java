@@ -9,7 +9,7 @@ public class SudokuVerifier {
 		this.candidateSolutionString = candidateSolution;
 		
 		// test R1: all numbers are positive
-		if(!(this.allNumbersPositive())) {
+		if(!(this.allNumbersPositive(String candidateSolution))) {
 			return -1;
 		} 
 		this.convertToIntArray(candidateSolution); // only convert if every number is positive
