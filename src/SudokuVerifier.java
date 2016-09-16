@@ -97,7 +97,10 @@ public class SudokuVerifier {
 			searchForThisNumber = singleColumn[singleColumnCounter];
 			for(int j = 0; j < singleColumn.length; j++ ) {
 				if(singleColumn[j] == searchForThisNumber) {
-					return false;
+					replica++; 
+					if(replica >= 2) {
+						return false;	
+					}
 				}
 			}
 		}
