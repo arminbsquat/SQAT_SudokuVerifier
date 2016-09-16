@@ -341,3 +341,10 @@ CompilationAction 1474029719780 SudokuVerifier.java
 RefactoringAction 1474029798712 SudokuVerifier.java REMOVE candidateSolutionString FIELD
 RefactoringAction 1474029809244 SudokuVerifier.java ADD String candidateSolutionString FIELD
 EditAction 1474029854350 SudokuVerifier.java 1286 3 10 0
+UnitTestCaseAction 1474029860619 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029860620 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474029878756 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029878757 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474029929770 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029929771 SudokuVerifierTest.java FAIL
+EditAction 1474029966641 SudokuVerifier.java 1267 3 10 0
