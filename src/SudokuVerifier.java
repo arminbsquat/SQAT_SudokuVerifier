@@ -16,7 +16,6 @@ public class SudokuVerifier {
 	}
 	
 	public boolean allNumbersPositive() {
-		this.candidateSolutionString = candidateSolution; //for testing
 		char[] candidateSolutionCharArray = this.candidateSolutionString.toCharArray();
 		for(int i = 0; i < candidateSolutionCharArray.length; i++) {
 			if(candidateSolutionCharArray[i] == '-') {
