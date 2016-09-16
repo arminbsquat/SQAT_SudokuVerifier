@@ -78,7 +78,6 @@ public class SudokuVerifier {
 		return true;
 	}
 	
-	
 	private boolean noReplicaInSingleColumn() {
 		int[] singleColumn = new int[9]; 
 		
