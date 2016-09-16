@@ -21,6 +21,7 @@ public class SudokuVerifier {
 	}
 	
 	public void noReplicaInSingleRow() {
+		int[] singleRow = new int[9]; 
 		
 	}
 	
