@@ -63,7 +63,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean allNumbersPositive(String candidateSolutionString) {
-		char[] candidateSolutionCharArray = this.candidateSolutionString.toCharArray();
+		char[] candidateSolutionCharArray = candidateSolutionString.toCharArray();
 		for(int i = 0; i < candidateSolutionCharArray.length; i++) {
 			if(candidateSolutionCharArray[i] == '-') {
 				return false;
