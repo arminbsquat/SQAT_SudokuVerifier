@@ -364,3 +364,9 @@ UnitTestSessionAction 1474030049861 SudokuVerifierTest.java FAIL
 EditAction 1474030069927 SudokuVerifier.java 1322 3 10 0
 EditAction 1474030087694 SudokuVerifier.java 1166 3 10 0
 EditAction 1474030098957 SudokuVerifier.java 1168 3 10 0
+RefactoringAction 1474030161597 SudokuVerifier.java ADD void not FIELD
+RefactoringAction 1474030163612 SudokuVerifier.java RENAME not=>void notRepeated FIELD
+RefactoringAction 1474030166628 SudokuVerifier.java RENAME notRepeated=>void no FIELD
+RefactoringAction 1474030168638 SudokuVerifier.java RENAME no=>void noReplica FIELD
+RefactoringAction 1474030171150 SudokuVerifier.java RENAME noReplica=>void noReplicaInRow() METHOD
+EditAction 1474030171847 SudokuVerifier.java 1208 4 10 0

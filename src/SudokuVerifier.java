@@ -15,6 +15,10 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
+	public void noReplicaInRow() {
+		
+	}
+	
 	public boolean allNumbersPositive() {
 		char[] candidateSolutionCharArray = this.candidateSolutionString.toCharArray();
 		for(int i = 0; i < candidateSolutionCharArray.length; i++) {
