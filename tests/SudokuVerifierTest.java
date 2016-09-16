@@ -45,7 +45,7 @@ public class SudokuVerifierTest {
 	public void test_noReplicaInEveryColumn_replicaFound() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "123456111112345678891234567789123456678912345567891234456789123345678912234567891";
-		assertEquals(sV.verify(candidateSolutionString), 0);
+		assertEquals(sV.verify(candidateSolutionString), -4);
 		//assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3), is(-4)));
 	}
 	
