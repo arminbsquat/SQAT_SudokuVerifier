@@ -28,6 +28,8 @@ public class SudokuVerifier {
 		for(int i = 0; i < 9; i++) {
 			singleRow[i] = candidateSolutionIntArray[offset + i];
 		}
+		
+		//tst row for duplicates
 	}
 	
 	public boolean allNumbersPositive() {
