@@ -11,10 +11,16 @@ public class SudokuVerifier {
 	}
 	
 	public boolean allNumbersPositive() {
+		int failed = 0;
 		for(int i = 0; i < candidateSolutionIntArray.length; i++) {
-			candidateSolutionIntArray[i] > 0;
+			if(candidateSolutionIntArray[i] > 0) {
+				
+			} else
+			{
+				
+			}
 		}
-		return true;
+		
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
