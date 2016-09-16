@@ -22,6 +22,6 @@ public class SudokuVerifier {
 			for(int i = 0; i < candidateSolutionCharArray.length; i++) {
 				this.candidateSolutionIntArray[i] = Integer.parseInt(candidateSolutionCharArray.toString());
 			}
-	
+
 	}
 }
