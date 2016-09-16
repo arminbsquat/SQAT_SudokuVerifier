@@ -33,6 +33,8 @@ public class SudokuVerifier {
 				if(candidateSolutionCharArray[j] == '-') {
 					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
 					j++;
+				} else {
+					
 				}
 				
 			}
