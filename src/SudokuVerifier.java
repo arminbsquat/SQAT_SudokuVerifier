@@ -35,7 +35,7 @@ public class SudokuVerifier {
 					localCandidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
 					j++;
 				} else {
-					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j]);
+					localCandidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j]);
 				}
 				
 			}
