@@ -31,6 +31,10 @@ public class SudokuVerifier {
 		}
 		
 		//test R4: noReplicaInColumn
+		if(!(this.noReplicaInEveryColumn())) {
+			return -4;
+		}
+		
 		return 0;
 	}
 	
