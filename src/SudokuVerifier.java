@@ -32,7 +32,7 @@ public class SudokuVerifier {
 			for(int j = 0; j < candidateSolutionCharArray.length; j++) {
 				if(candidateSolutionCharArray[j] == '-') {
 					// add - and number together to get a single number
-					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
+					localCandidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
 					j++;
 				} else {
 					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j]);
