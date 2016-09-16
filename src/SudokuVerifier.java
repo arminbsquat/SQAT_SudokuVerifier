@@ -19,6 +19,7 @@ public class SudokuVerifier {
 			return -3;
 		}
 		
+		//test R4: noReplicaInColumn
 		return 0;
 	}
 	
