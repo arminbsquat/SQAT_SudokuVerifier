@@ -34,6 +34,8 @@ public class SudokuVerifier {
 				
 			}
 			
+			
+			
 			this.candidateSolutionIntArray = new int[candidateSolutionCharArray.length];
 			
 			for(int i = 0; i < candidateSolutionCharArray.length; i++) {
