@@ -26,7 +26,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test 
-	public void test_noReplicaInRow() {
+	public void test_noReplicaInSingleRow() {
 		
 	}
 	
