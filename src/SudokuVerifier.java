@@ -7,4 +7,10 @@ public class SudokuVerifier {
 		
 		//check
 	}
+	
+	public boolean allNumbersPositive() {
+		
+		
+		
+	}
 }

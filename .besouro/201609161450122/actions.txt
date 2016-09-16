@@ -1,0 +1,5 @@
+FileOpenedAction 1474026612250 SudokuVerifier.java 162 1 1 0
+RefactoringAction 1474026622013 SudokuVerifier.java ADD void allNumbers FIELD
+RefactoringAction 1474026624031 SudokuVerifier.java RENAME allNumbers=>void allNumbersPositive() METHOD
+RefactoringAction 1474026642132 SudokuVerifier.java RENAME allNumbersPositive()=>boolean allNumbersPositive(String) METHOD
+EditAction 1474026644773 SudokuVerifier.java 215 2 1 0
