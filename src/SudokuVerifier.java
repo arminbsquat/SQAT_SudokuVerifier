@@ -21,7 +21,7 @@ public class SudokuVerifier {
 	
 	}
 	
-	public void noReplicaInSingleRow() {
+	public boolean noReplicaInSingleRow() {
 		int[] singleRow = new int[9]; 
 		
 		// build a row to test
@@ -39,6 +39,7 @@ public class SudokuVerifier {
 				}
 			}
 		}
+		return true;
 	}
 	
 	public boolean allNumbersPositive() {
