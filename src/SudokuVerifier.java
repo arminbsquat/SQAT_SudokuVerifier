@@ -31,7 +31,7 @@ public class SudokuVerifier {
 			
 			for(int j = 0; j < candidateSolutionCharArray.length; j++) {
 				if(candidateSolutionCharArray[j] == '-') {
-					// add - and number together to 1 number
+					// add - and number together to get one number
 					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
 					j++;
 				} else {
