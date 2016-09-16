@@ -4,6 +4,8 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		this.convertToIntArray(candidateSolution);
+		
+		// test R1: all numbers are positive
 		if(this.allNumbersPositive()) {
 			
 		}
