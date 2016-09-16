@@ -19,9 +19,7 @@ public class SudokuVerifier {
 			this.candidateSolutionIntArray = new int[candidateSolutionString.length()];
 			
 			for(int i = 0; i < candidateSolutionString.length(); i++ ) {
-				localCandidateSolutionIntArray[i] = Integer.parseInt(candidateSolutionString.substring(i, i+1));
-			}
-			
-			
+				this.candidateSolutionIntArray[i] = Integer.parseInt(candidateSolutionString.substring(i, i+1));
+			}		
 	}
 }
