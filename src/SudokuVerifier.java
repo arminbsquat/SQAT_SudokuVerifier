@@ -74,9 +74,9 @@ public class SudokuVerifier {
 				if(singleRow[j] == searchForThisNumber) {
 					replica++; 
 					if(replica >= 2) {
-						
+						return false;	
 					}
-					return false;
+					
 				}
 			}
 		}
