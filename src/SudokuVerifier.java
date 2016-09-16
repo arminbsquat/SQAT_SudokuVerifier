@@ -9,7 +9,7 @@ public class SudokuVerifier {
 		if(this.allNumbersPositive()) {
 			return 0;
 		} else {
-			
+			return -1;
 		}
 		// returns 0 if the candidate solution is correct
 		return 0;
