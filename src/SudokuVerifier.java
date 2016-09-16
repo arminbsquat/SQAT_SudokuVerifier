@@ -1,7 +1,7 @@
 
 public class SudokuVerifier {
 	public int[] candidateSolutionIntArray;
-	
+	String candidateSolution;
 	public int verify(String candidateSolution) {
 		this.convertToIntArray(candidateSolution);
 		
@@ -14,13 +14,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean allNumbersPositive() {
-		for(int i = 0; i < candidateSolutionIntArray.length; i++) {
-			if(candidateSolutionIntArray[i] < 0) {
-				return false;
-			} 
-		}
-		
-		return true;
+		while()
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
