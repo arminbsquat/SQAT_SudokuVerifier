@@ -16,10 +16,12 @@ public class SudokuVerifier {
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
-			int[] localCandidateSolutionIntArray = new int[candidateSolutionString.length()];
+			this.candidateSolutionIntArray = new int[candidateSolutionString.length()];
 			
 			for(int i = 0; i < candidateSolutionString.length(); i++ ) {
 				localCandidateSolutionIntArray[i] = Integer.parseInt(candidateSolutionString.substring(i, i+1));
 			}
+			
+			
 	}
 }
