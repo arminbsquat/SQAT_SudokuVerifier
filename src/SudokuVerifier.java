@@ -12,7 +12,7 @@ public class SudokuVerifier {
 	
 	public boolean allNumbersPositive() {
 		for(int i = 0; i < this.candidateSolutionByte.length; i++) {
-			
+			this.candidateSolutionByte[i]
 			
 			
 		}
