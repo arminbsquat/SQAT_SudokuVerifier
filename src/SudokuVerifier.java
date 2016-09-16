@@ -28,9 +28,10 @@ public class SudokuVerifier {
 	public void convertToIntArray(String candidateSolutionString) {
 			char[] candidateSolutionCharArray = candidateSolutionString.toCharArray();
 			
-			// add - and number together to 1 number
+			
 			for(int j = 0; j < candidateSolutionCharArray.length; j++) {
 				if(candidateSolutionCharArray[j] == '-') {
+					// add - and number together to 1 number
 					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
 					j++;
 				} else {
