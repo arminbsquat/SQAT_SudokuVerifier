@@ -58,6 +58,7 @@ public class SudokuVerifier {
 	}
 	
 	private boolean noReplicaInSingleRow() {
+		int replica = 0;
 		int[] singleRow = new int[9]; 
 		
 		// build a row to test
