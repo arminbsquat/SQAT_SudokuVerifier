@@ -29,10 +29,10 @@ public class SudokuVerifier {
 			singleRow[i] = candidateSolutionIntArray[offset + i];
 		}
 		
-		int searchForThisNumber = singleRow[0]
+		int searchForThisNumber;
 		//test row for duplicates
 		for(int singleRowCounter = 0; singleRowCounter < singleRow.length; singleRowCounter++) {
-			
+			searchForThisNumber = singleRow[singleRowCounter];
 		}
 	}
 	
