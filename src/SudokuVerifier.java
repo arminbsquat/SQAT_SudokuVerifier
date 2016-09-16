@@ -22,6 +22,7 @@ public class SudokuVerifier {
 				return false;
 			}
 		}
+		return true;
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
