@@ -21,16 +21,12 @@ public class SudokuVerifier {
 		
 		// test R1: all numbers are positive
 		if(!(this.allNumbersPositive(candidateSolution))) {
-
-			System.out.println("-1");
 			return -1;
 		} 
 		this.convertToIntArray(candidateSolution); // only convert if every number is positive
 		
 		// test R3: noReplicaInRow
 		if(!(this.noReplicaInEveryRow())) {
-
-			System.out.println("-3");
 			return -3;
 		}
 		
@@ -81,6 +77,7 @@ public class SudokuVerifier {
 		}
 		return true;
 	}
+	
 	
 	private boolean noReplicaInSingleColumn() {
 		int[] singleColumn = new int[9]; 
