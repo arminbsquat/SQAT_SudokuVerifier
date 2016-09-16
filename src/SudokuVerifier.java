@@ -14,7 +14,7 @@ public class SudokuVerifier {
 		} 
 		this.convertToIntArray(candidateSolution); // only convert if every number is positive
 		
-		// test R3:
+		// test R3: noReplicaInRow
 		return 0;
 	}
 	
