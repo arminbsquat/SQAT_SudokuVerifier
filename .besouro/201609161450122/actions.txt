@@ -279,3 +279,28 @@ EditAction 1474029378332 SudokuVerifier.java 1322 3 10 0
 EditAction 1474029383220 SudokuVerifier.java 1322 3 10 0
 EditAction 1474029389423 SudokuVerifier.java 1322 3 10 0
 EditAction 1474029442870 SudokuVerifier.java 1295 3 7 0
+CompilationAction 1474029445155 SudokuVerifier.java
+CompilationAction 1474029445156 SudokuVerifier.java
+CompilationAction 1474029445157 SudokuVerifier.java
+CompilationAction 1474029447032 SudokuVerifier.java
+CompilationAction 1474029447033 SudokuVerifier.java
+CompilationAction 1474029447218 SudokuVerifier.java
+CompilationAction 1474029447219 SudokuVerifier.java
+CompilationAction 1474029447220 SudokuVerifier.java
+CompilationAction 1474029457269 SudokuVerifier.java
+CompilationAction 1474029457469 SudokuVerifier.java
+CompilationAction 1474029457470 SudokuVerifier.java
+RefactoringAction 1474029460741 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1474029462061 SudokuVerifier.java
+CompilationAction 1474029462063 SudokuVerifier.java
+CompilationAction 1474029462234 SudokuVerifier.java
+CompilationAction 1474029479606 SudokuVerifier.java
+CompilationAction 1474029479771 SudokuVerifier.java
+CompilationAction 1474029479773 SudokuVerifier.java
+CompilationAction 1474029506543 SudokuVerifier.java
+CompilationAction 1474029506545 SudokuVerifier.java
+CompilationAction 1474029506695 SudokuVerifier.java
+CompilationAction 1474029506696 SudokuVerifier.java
+CompilationAction 1474029523570 SudokuVerifier.java
+CompilationAction 1474029523742 SudokuVerifier.java
+EditAction 1474029552094 SudokuVerifier.java 1240 3 10 0
