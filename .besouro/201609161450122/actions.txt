@@ -3,3 +3,10 @@ RefactoringAction 1474026622013 SudokuVerifier.java ADD void allNumbers FIELD
 RefactoringAction 1474026624031 SudokuVerifier.java RENAME allNumbers=>void allNumbersPositive() METHOD
 RefactoringAction 1474026642132 SudokuVerifier.java RENAME allNumbersPositive()=>boolean allNumbersPositive(String) METHOD
 EditAction 1474026644773 SudokuVerifier.java 215 2 1 0
+CompilationAction 1474026646209 SudokuVerifier.java
+RefactoringAction 1474026657200 SudokuVerifier.java ADD String candidateSolution FIELD
+CompilationAction 1474026659670 SudokuVerifier.java
+CompilationAction 1474026659838 SudokuVerifier.java
+CompilationAction 1474026672903 SudokuVerifier.java
+CompilationAction 1474026673067 SudokuVerifier.java
+EditAction 1474026690936 SudokuVerifier.java 288 2 2 0
