@@ -99,3 +99,14 @@ EditAction 1474027551429 SudokuVerifier.java 632 3 5 0
 CompilationAction 1474027552906 SudokuVerifier.java
 CompilationAction 1474027557724 SudokuVerifier.java
 EditAction 1474027566156 SudokuVerifier.java 626 3 5 0
+RefactoringAction 1474027583871 SudokuVerifierTest.java ADD SudokuVerifierTest.java CLASS
+FileOpenedAction 1474027584139 SudokuVerifierTest.java 42 0 0 0
+CompilationAction 1474027585243 SudokuVerifierTest.java
+RefactoringAction 1474027594674 SudokuVerifierTest.java REMOVE SudokuVerifierTest.java CLASS
+FileOpenedAction 1474027599927 SudokuVerifierParametrizedTest.java 172 1 1 0
+FileOpenedAction 1474027603071 SudokuVerifierTest.java 390 1 1 0
+RefactoringAction 1474027614614 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1474027621141 SudokuVerifierTest.java RENAME test=>void test_String FIELD
+RefactoringAction 1474027630653 SudokuVerifierTest.java RENAME test_String=>void test_convertToIntArray FIELD
+RefactoringAction 1474027632667 SudokuVerifierTest.java RENAME test_convertToIntArray=>void test_convertToIntArray() METHOD
+EditAction 1474027634746 SudokuVerifierTest.java 447 2 1 0
