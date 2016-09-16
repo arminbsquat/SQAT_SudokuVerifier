@@ -61,7 +61,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean noReplicaInSingleColumn() {
-		int[] singleRow = new int[9]; 
+		int[] singleColumn = new int[9]; 
 		
 		// build a row to test
 		for(int i = 0; i < 9; i++) {
