@@ -52,7 +52,7 @@ public class SudokuVerifier {
 	
 	}
 	
-	public boolean noReplicaInSingleRow() {
+	private boolean noReplicaInSingleRow() {
 		int[] singleRow = new int[9]; 
 		
 		// build a row to test
@@ -99,7 +99,7 @@ public class SudokuVerifier {
 		
 		while(successCounter < 9) 
 		{
-			if(!(this.noReplicaInSingleRow())) {
+			if(!(this.noReplicaInSingleColumn())) {
 				return false;
 			} else 
 			{
