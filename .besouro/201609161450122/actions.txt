@@ -678,3 +678,6 @@ CompilationAction 1474033714253 SudokuVerifierTest.java
 CompilationAction 1474033714410 SudokuVerifierTest.java
 RefactoringAction 1474033721306 SudokuVerifierTest.java REMOVE test_noReplicaInEveryColumn_replicaFound()/2 METHOD
 EditAction 1474033730495 SudokuVerifierTest.java 2235 7 20 6
+CompilationAction 1474033733177 SudokuVerifierTest.java
+CompilationAction 1474033735548 SudokuVerifierTest.java
+EditAction 1474033738656 SudokuVerifierTest.java 2157 7 20 6
