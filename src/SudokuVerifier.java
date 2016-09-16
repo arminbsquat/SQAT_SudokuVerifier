@@ -23,6 +23,7 @@ public class SudokuVerifier {
 	
 	public void noReplicaInSingleRow() {
 		int[] singleRow = new int[9]; 
+		
 		// add next 9 elements
 		for(int i = 0; i < 9; i++) {
 			singleRow[i] = candidateSolutionIntArray[offset + i];
