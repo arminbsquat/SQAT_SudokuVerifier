@@ -18,6 +18,8 @@ public class SudokuVerifier {
 	public void convertToIntArray(String candidateSolutionString) {
 			this.candidateSolutionIntArray = new int[candidateSolutionString.length()];
 			
+			for(int j = 0; j < candidateSolutionString.length() )
+			
 			for(int i = 0; i < candidateSolutionString.length(); i++ ) {
 				this.candidateSolutionIntArray[i] = Integer.parseInt(candidateSolutionString.substring(i, i+1));
 			}		
