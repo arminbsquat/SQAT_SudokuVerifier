@@ -27,6 +27,9 @@ public class SudokuVerifier {
 			successCounter++;
 		}
 
+		if(successCounter == 9) {
+			return true:
+		}
 		
 	
 	}
