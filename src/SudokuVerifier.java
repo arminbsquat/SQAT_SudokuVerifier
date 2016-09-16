@@ -18,8 +18,8 @@ public class SudokuVerifier {
 	public boolean allNumbersPositive() {
 		char[] candidateSolutionCharArray = this.candidateSolutionString.toCharArray();
 		for(int i = 0; i < candidateSolutionCharArray.length; i++) {
-			if(candidateSolutionCharArray[i].equals('-')) {
-				return false
+			if(candidateSolutionCharArray[i] == '-') {
+				return false;
 			}
 		}
 	}
