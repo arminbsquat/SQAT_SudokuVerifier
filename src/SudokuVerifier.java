@@ -89,7 +89,7 @@ public class SudokuVerifier {
 		int p = 0;
 		// build a column to test
 		for(int i = 0; i < 9; i = i++) {
-			singleColumn[i] = candidateSolutionIntArray[offset + i];
+			singleColumn[i] = candidateSolutionIntArray[offset + p];
 			p = p + 9;
 		}
 		
