@@ -13,6 +13,8 @@ public class SudokuVerifierTest {
 	}
 	
 	public void test_convertToIntArray() {
+		SudokuVerifier sV = new SudokuVerifier(); 
+		
 		
 		
 		
