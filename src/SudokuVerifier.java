@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class SudokuVerifier {
-	public int[] candidateSolutionIntArray;
+	public int[] candidateSolutionIntArray = new int[81];
 	int offset = 0;
 	
 	
@@ -141,7 +141,7 @@ public class SudokuVerifier {
 	// assumes that all numbers are positive
 	public void convertToIntArray(String candidateSolutionString) {
 			char[] candidateSolutionCharArray = candidateSolutionString.toCharArray();
-			this.candidateSolutionIntArray = new int[candidateSolutionCharArray.length];
+			//this.candidateSolutionIntArray = new int[candidateSolutionCharArray.length];
 			
 			for(int j = 0; j < candidateSolutionCharArray.length; j++) {
 					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j]);
