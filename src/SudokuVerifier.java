@@ -9,7 +9,6 @@ public class SudokuVerifier {
 		if(!(this.allNumbersPositive())) {
 			return -1;
 		} 
-
 		
 		return 0;
 	}
