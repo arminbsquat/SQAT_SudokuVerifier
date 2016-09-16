@@ -25,6 +25,12 @@ public class SudokuVerifierTest {
 		sV.verify(candidateSolutionString);
 	}
 	
+	@Test 
+	public void test_noReplicaInRow() {
+		
+	}
+	
+	
 	@Test
 	public void testVerify() {
 		fail("Not yet implemented");
