@@ -69,6 +69,7 @@ public class SudokuVerifier {
 		int searchForThisNumber;
 		//test row for duplicates
 		for(int singleRowCounter = 0; singleRowCounter < singleRow.length; singleRowCounter++) {
+			int replica = 0;
 			searchForThisNumber = singleRow[singleRowCounter];
 			for(int j = 0; j < singleRow.length; j++ ) {
 				if(singleRow[j] == searchForThisNumber) {
@@ -83,7 +84,6 @@ public class SudokuVerifier {
 	}
 	
 	private boolean noReplicaInSingleColumn() {
-		int replica = 0;
 		int[] singleColumn = new int[9]; 
 		
 		// build a column to test
