@@ -15,7 +15,7 @@ public class SudokuVerifierTest {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		sV.convertToIntArray(candidateSolutionString);
-		assertEquals(sV.candidateSolutionIntArray[0], Integer.parseInt("1") );
+		assertEquals(sV.candidateSolutionIntArray[0], Integer.parseInt("4") );
 	}
 	
 	@Test
