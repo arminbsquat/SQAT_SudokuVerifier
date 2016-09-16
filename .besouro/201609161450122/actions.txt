@@ -201,3 +201,4 @@ RefactoringAction 1474028628967 SudokuVerifierTest.java ADD void test_allNumbers
 EditAction 1474028630372 SudokuVerifierTest.java 806 3 5 1
 EditAction 1474028632713 SudokuVerifierTest.java 808 3 5 1
 EditAction 1474028642728 SudokuVerifierTest.java 1019 3 8 1
+EditAction 1474028659100 SudokuVerifier.java 876 3 8 0
