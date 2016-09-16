@@ -21,7 +21,6 @@ public class SudokuVerifier {
 		
 		// test R1: all numbers are positive
 		if(!(this.allNumbersPositive(candidateSolution))) {
-			System.out.print("-1");
 			return -1;
 		} 
 		this.convertToIntArray(candidateSolution); // only convert if every number is positive
@@ -34,7 +33,6 @@ public class SudokuVerifier {
 		
 		//test R4: noReplicaInColumn
 		if(!(this.noReplicaInEveryColumn())) {
-			System.out.print("-4");
 			return -4;
 		}
 		
