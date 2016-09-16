@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class SudokuVerifier {
 	public int[] candidateSolutionIntArray;
 	String candidateSolutionString;
+	int offset = 0;
 	
 	public int verify(String candidateSolution) {
 		this.candidateSolutionString = candidateSolution;
@@ -22,6 +23,7 @@ public class SudokuVerifier {
 	
 	public void noReplicaInSingleRow() {
 		int[] singleRow = new int[9]; 
+		// add next 9 elements
 		for(int i = 0; i < 9; i++) {
 			singleRow[i] = candidateSolutionIntArray[offset + i];
 		}
