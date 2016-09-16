@@ -111,3 +111,4 @@ RefactoringAction 1474027630653 SudokuVerifierTest.java RENAME test_String=>void
 RefactoringAction 1474027632667 SudokuVerifierTest.java RENAME test_convertToIntArray=>void test_convertToIntArray() METHOD
 EditAction 1474027634746 SudokuVerifierTest.java 447 2 1 0
 EditAction 1474027661816 SudokuVerifierTest.java 495 2 2 0
+EditAction 1474027685814 SudokuVerifierTest.java 650 2 4 0
