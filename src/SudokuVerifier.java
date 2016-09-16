@@ -6,13 +6,12 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		this.candidateSolutionString = candidateSolution;
-		this.convertToIntArray(candidateSolution);
 		
 		// test R1: all numbers are positive
 		if(!(this.allNumbersPositive())) {
 			return -1;
 		} 
-		
+		this.convertToIntArray(candidateSolution); 
 		return 0;
 	}
 	
@@ -30,21 +29,13 @@ public class SudokuVerifier {
 			char[] candidateSolutionCharArray = candidateSolutionString.toCharArray();
 			int[] localCandidateSolutionIntArray = new int[candidateSolutionIntArray.length];
 			
-			
-			ArrayList<String> candidateSolutionStringList = new ArrayList<String>();
-			
-			
-			
 			for(int j = 0; j < candidateSolutionCharArray.length; j++) {
 				if(candidateSolutionCharArray[j] == '-') {
-					// add - and number together to get a single number
-					//this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
-					candidateSolutionStringList.add((candidateSolutionCharArray[j]+candidateSolutionCharArray[j+1]);.toString()
+					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
 					j++;
 				} else {
 					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j]);
 				}
-				
 			}
 	}
 }

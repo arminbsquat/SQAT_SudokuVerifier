@@ -327,3 +327,17 @@ CompilationAction 1474029676159 SudokuVerifier.java
 CompilationAction 1474029676161 SudokuVerifier.java
 CompilationAction 1474029676328 SudokuVerifier.java
 EditAction 1474029689182 SudokuVerifier.java 1557 3 7 0
+CompilationAction 1474029691038 SudokuVerifier.java
+CompilationAction 1474029691039 SudokuVerifier.java
+CompilationAction 1474029691040 SudokuVerifier.java
+CompilationAction 1474029691041 SudokuVerifier.java
+CompilationAction 1474029710330 SudokuVerifier.java
+CompilationAction 1474029710332 SudokuVerifier.java
+CompilationAction 1474029710334 SudokuVerifier.java
+CompilationAction 1474029710336 SudokuVerifier.java
+CompilationAction 1474029710492 SudokuVerifier.java
+CompilationAction 1474029719589 SudokuVerifier.java
+CompilationAction 1474029719780 SudokuVerifier.java
+RefactoringAction 1474029798712 SudokuVerifier.java REMOVE candidateSolutionString FIELD
+RefactoringAction 1474029809244 SudokuVerifier.java ADD String candidateSolutionString FIELD
+EditAction 1474029854350 SudokuVerifier.java 1286 3 10 0
