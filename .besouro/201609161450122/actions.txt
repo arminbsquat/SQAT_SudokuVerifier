@@ -370,3 +370,4 @@ RefactoringAction 1474030166628 SudokuVerifier.java RENAME notRepeated=>void no 
 RefactoringAction 1474030168638 SudokuVerifier.java RENAME no=>void noReplica FIELD
 RefactoringAction 1474030171150 SudokuVerifier.java RENAME noReplica=>void noReplicaInRow() METHOD
 EditAction 1474030171847 SudokuVerifier.java 1208 4 10 0
+EditAction 1474030198083 SudokuVerifier.java 1233 4 10 0

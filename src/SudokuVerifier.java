@@ -16,7 +16,7 @@ public class SudokuVerifier {
 	}
 	
 	public void noReplicaInRow() {
-		
+		candidateSolutionIntArray
 	}
 	
 	public boolean allNumbersPositive() {
