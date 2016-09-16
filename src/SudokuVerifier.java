@@ -20,10 +20,10 @@ public class SudokuVerifier {
 		int successCounter = 0;
 		
 		if(this.noReplicaInSingleRow()) {
-			
+			this.offset = this.offset + 9;
 		}
 		this.noReplicaInSingleRow();
-		this.offset = this.offset + 9;
+		
 	
 	}
 	
