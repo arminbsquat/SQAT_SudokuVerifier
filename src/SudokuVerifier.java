@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class SudokuVerifier {
 	public int[] candidateSolutionIntArray;
@@ -28,15 +27,20 @@ public class SudokuVerifier {
 	
 	public void convertToIntArray(String candidateSolutionString) {
 			char[] candidateSolutionCharArray = candidateSolutionString.toCharArray();
-			ArrayList<String> localCandidateSolutionStringList = new ArrayList<String>();
+			int[] localCandidateSolutionIntArray = new int[candidateSolutionIntArray.length];
+			
+			
+			ArrayList<string> candidateSolution
+			
+			
 			
 			for(int j = 0; j < candidateSolutionCharArray.length; j++) {
 				if(candidateSolutionCharArray[j] == '-') {
 					// add - and number together to get a single number
-					localCandidateSolutionStringList.add(localCandidateSolutionStringList[j] + localCandidateSolutionStringList[j+1]);
+					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
 					j++;
 				} else {
-					
+					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j]);
 				}
 				
 			}
