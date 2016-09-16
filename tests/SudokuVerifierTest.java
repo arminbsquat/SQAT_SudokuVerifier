@@ -9,7 +9,7 @@ public class SudokuVerifierTest {
 
 
 	
-	@Test
+	//@Test
 	public void test_convertToIntArray() {
 		// do this better
 		SudokuVerifier sV = new SudokuVerifier(); 
