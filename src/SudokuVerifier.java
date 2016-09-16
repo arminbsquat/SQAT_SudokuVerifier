@@ -12,7 +12,7 @@ public class SudokuVerifier {
 	
 	public boolean allNumbersPositive() {
 		for(int i = 0; i < candidateSolutionIntArray.length; i++) {
-			
+			candidateSolutionIntArray[i] > 0;
 		}
 		return true;
 	}
