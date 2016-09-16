@@ -18,6 +18,7 @@ public class SudokuVerifier {
 	
 	public void noReplicaInEveryRow() {
 		
+		this.noReplicaInSingleRow();
 	
 	}
 	
