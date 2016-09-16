@@ -35,3 +35,22 @@ CompilationAction 1474026786697 SudokuVerifier.java
 EditAction 1474026793288 SudokuVerifier.java 380 2 3 0
 CompilationAction 1474026794901 SudokuVerifier.java
 EditAction 1474026807631 SudokuVerifier.java 409 2 2 0
+CompilationAction 1474026809064 SudokuVerifier.java
+CompilationAction 1474026809065 SudokuVerifier.java
+CompilationAction 1474026824270 SudokuVerifier.java
+CompilationAction 1474026824272 SudokuVerifier.java
+CompilationAction 1474026824424 SudokuVerifier.java
+RefactoringAction 1474027204588 SudokuVerifier.java ADD void convert FIELD
+RefactoringAction 1474027205600 SudokuVerifier.java RENAME convert=>void convertTo FIELD
+RefactoringAction 1474027207120 SudokuVerifier.java RENAME convertTo=>void convertToInt FIELD
+RefactoringAction 1474027209634 SudokuVerifier.java RENAME convertToInt=>void convertToIntArray FIELD
+RefactoringAction 1474027210655 SudokuVerifier.java RENAME convertToIntArray=>void convertToIntArray() METHOD
+RefactoringAction 1474027218692 SudokuVerifier.java RENAME candidateSolutionByte=>int FIELD
+RefactoringAction 1474027220705 SudokuVerifier.java RENAME candidateSolution=>int FIELD
+CompilationAction 1474027233730 SudokuVerifier.java
+CompilationAction 1474027234193 SudokuVerifier.java
+CompilationAction 1474027234194 SudokuVerifier.java
+CompilationAction 1474027251955 SudokuVerifier.java
+CompilationAction 1474027251957 SudokuVerifier.java
+CompilationAction 1474027252120 SudokuVerifier.java
+EditAction 1474027259512 SudokuVerifier.java 374 3 2 0
