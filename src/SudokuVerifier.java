@@ -15,10 +15,10 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < candidateSolutionIntArray.length; i++) {
 			if(!(candidateSolutionIntArray[i] > 0)) {
-				
+				return false;
 			} else
 			{
-				return false;
+				
 			}
 		}
 		
