@@ -11,7 +11,7 @@ public class SudokuVerifier {
 		if(!(this.allNumbersPositive())) {
 			return -1;
 		} 
-		this.convertToIntArray(candidateSolution); // only convert if everything is positive
+		this.convertToIntArray(candidateSolution); // only convert if every number is positive
 		return 0;
 	}
 	
