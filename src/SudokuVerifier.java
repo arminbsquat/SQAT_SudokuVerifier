@@ -12,10 +12,16 @@ public class SudokuVerifier {
 	
 	public boolean allNumbersPositive() {
 
-		return true:
+		return true;
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
-		
+		for (int i = 0; i < items.length; i++) {
+		    try {
+		        results[i] = Integer.parseInt(items[i]);
+		    } catch (NumberFormatException nfe) {
+		        //NOTE: write something here if you need to recover from formatting errors
+		    };
+		}
 	}
 }
