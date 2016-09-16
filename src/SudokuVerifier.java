@@ -13,6 +13,8 @@ public class SudokuVerifier {
 			return -1;
 		} 
 		this.convertToIntArray(candidateSolution); // only convert if every number is positive
+		
+		// test R3:
 		return 0;
 	}
 	
