@@ -18,7 +18,7 @@ public class SudokuVerifierTest {
 		assertEquals(sV.candidateSolutionIntArray[0], Integer.parseInt("4"));
 	}
 	
-	//@Test
+	@Test
 	public void test_allNumbersPositive() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
@@ -32,7 +32,7 @@ public class SudokuVerifierTest {
 		assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3)));
 	}
 	
-	//@Test
+	@Test
 	public void test_noReplicaInEveryColumn() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
