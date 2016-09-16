@@ -76,7 +76,6 @@ public class SudokuVerifier {
 					if(replica >= 2) {
 						return false;	
 					}
-					
 				}
 			}
 		}
