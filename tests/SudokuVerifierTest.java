@@ -53,7 +53,7 @@ public class SudokuVerifierTest {
 	public void test_noReplicaInEveryRow_replicaFound() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = 
-				"123456789"
+				  "123456789"
 				+ "912345678"
 				+ "891234567"
 				+ "789123456"
