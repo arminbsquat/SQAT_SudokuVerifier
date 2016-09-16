@@ -32,6 +32,10 @@ public class SudokuVerifierTest {
 		assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3)));
 	}
 	
+	public void test_noReplicaInEveryColumn() {
+		
+	}
+	
 	
 	@Test
 	public void testVerify() {

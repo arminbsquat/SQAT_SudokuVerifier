@@ -590,3 +590,5 @@ EditAction 1474032498850 SudokuVerifier.java 2921 7 26 0
 EditAction 1474032543515 SudokuVerifier.java 2952 7 26 0
 EditAction 1474032578034 SudokuVerifier.java 3064 7 26 0
 EditAction 1474032727825 SudokuVerifierTest.java 1376 4 11 3
+RefactoringAction 1474032746468 SudokuVerifierTest.java ADD void test_noReplicaInEveryColumn() METHOD
+EditAction 1474032748446 SudokuVerifierTest.java 1429 5 11 3
