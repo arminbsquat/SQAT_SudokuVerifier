@@ -631,3 +631,5 @@ UnitTestSessionAction 1474033273162 SudokuVerifierTest.java FAIL
 RefactoringAction 1474033288303 SudokuVerifierTest.java ADD void test_noReplicaInSingleRow() METHOD
 EditAction 1474033289553 SudokuVerifierTest.java 1737 6 14 4
 EditAction 1474033312791 SudokuVerifierTest.java 1899 6 16 4
+RefactoringAction 1474033333381 SudokuVerifierTest.java REMOVE test_noReplicaInSingleRow() METHOD
+EditAction 1474033344407 SudokuVerifierTest.java 1679 5 14 4
