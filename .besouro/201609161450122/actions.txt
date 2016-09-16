@@ -112,3 +112,14 @@ RefactoringAction 1474027632667 SudokuVerifierTest.java RENAME test_convertToInt
 EditAction 1474027634746 SudokuVerifierTest.java 447 2 1 0
 EditAction 1474027661816 SudokuVerifierTest.java 495 2 2 0
 EditAction 1474027685814 SudokuVerifierTest.java 650 2 4 0
+CompilationAction 1474027687291 SudokuVerifierTest.java
+CompilationAction 1474027687292 SudokuVerifierTest.java
+CompilationAction 1474027687293 SudokuVerifierTest.java
+CompilationAction 1474027692500 SudokuVerifierTest.java
+CompilationAction 1474027692502 SudokuVerifierTest.java
+CompilationAction 1474027692504 SudokuVerifierTest.java
+CompilationAction 1474027692660 SudokuVerifierTest.java
+CompilationAction 1474027692661 SudokuVerifierTest.java
+CompilationAction 1474027696059 SudokuVerifierTest.java
+CompilationAction 1474027696061 SudokuVerifierTest.java
+EditAction 1474027707090 SudokuVerifier.java 633 3 5 0

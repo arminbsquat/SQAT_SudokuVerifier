@@ -1,6 +1,6 @@
 
 public class SudokuVerifier {
-	int[] candidateSolutionIntArray;
+	public int[] candidateSolutionIntArray;
 	
 	public int verify(String candidateSolution) {
 		this.convertToIntArray(candidateSolution);
