@@ -1,9 +1,9 @@
 
 public class SudokuVerifier {
-	byte[] candidateSolution;
+	byte[] candidateSolutionByte;
 	
 	public int verify(String candidateSolution) {
-		this.candidateSolution = candidateSolution;
+		this.candidateSolutionByte = candidateSolution.getBytes();
 		// returns 0 if the candidate solution is correct
 		return 0;
 		
@@ -11,7 +11,6 @@ public class SudokuVerifier {
 	}
 	
 	public boolean allNumbersPositive() {
-		byte[] candidateSolution = this.candidateSolution.getBytes();
 		
 		
 	}

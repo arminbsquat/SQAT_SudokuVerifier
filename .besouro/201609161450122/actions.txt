@@ -17,3 +17,15 @@ CompilationAction 1474026710349 SudokuVerifier.java
 EditAction 1474026723877 SudokuVerifier.java 349 2 3 0
 CompilationAction 1474026725235 SudokuVerifier.java
 EditAction 1474026731596 SudokuVerifier.java 349 2 3 0
+CompilationAction 1474026733068 SudokuVerifier.java
+CompilationAction 1474026733078 SudokuVerifier.java
+RefactoringAction 1474026735618 SudokuVerifier.java RENAME candidateSolution=>byte FIELD
+CompilationAction 1474026740550 SudokuVerifier.java
+CompilationAction 1474026740551 SudokuVerifier.java
+CompilationAction 1474026740711 SudokuVerifier.java
+CompilationAction 1474026744135 SudokuVerifier.java
+CompilationAction 1474026744136 SudokuVerifier.java
+CompilationAction 1474026748857 SudokuVerifier.java
+CompilationAction 1474026749006 SudokuVerifier.java
+CompilationAction 1474026749007 SudokuVerifier.java
+EditAction 1474026755339 SudokuVerifier.java 304 2 2 0
