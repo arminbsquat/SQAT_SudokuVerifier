@@ -119,7 +119,6 @@ public class SudokuVerifier {
 				return false;
 			} else 
 			{
-				this.offset = this.offset + 9;
 				successCounter++;
 			}
 		}
