@@ -17,6 +17,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean noReplicaInEveryRow() {
+		int successCounter = 0;
 		this.noReplicaInSingleRow();
 		this.offset = this.offset + 9;
 	
