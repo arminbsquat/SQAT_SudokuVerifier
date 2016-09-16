@@ -20,8 +20,6 @@ public class SudokuVerifier {
 		}
 		
 		return true;
-		
-		
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
