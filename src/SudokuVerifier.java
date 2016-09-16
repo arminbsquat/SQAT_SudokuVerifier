@@ -16,14 +16,6 @@ public class SudokuVerifier {
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
-		int[] results = new int[candidateSolutionString.getBytes().length];
-		
-		for (int i = 0; i < candidateSolutionString.getBytes().length; i++) {
-		    try {
-		        results[i] = Integer.parseInt(items[i]);
-		    } catch (NumberFormatException nfe) {
-		        //NOTE: write something here if you need to recover from formatting errors
-		    };
-		}
+			int[] localCandidateSolutionIntArray = new int[]
 	}
 }
