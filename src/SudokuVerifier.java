@@ -11,23 +11,17 @@ public class SudokuVerifier {
 	}
 	
 	public boolean allNumbersPositive() {
-		int failed = 0;
+		
 		
 		for(int i = 0; i < candidateSolutionIntArray.length; i++) {
 			if(candidateSolutionIntArray[i] > 0) {
 				
 			} else
 			{
-				failed = 1;
+			
 			}
 		}
 		
-		if(failed == 0) { 
-			return true;
-		}
-		else {
-			return false;
-		}
 		
 	}
 	
