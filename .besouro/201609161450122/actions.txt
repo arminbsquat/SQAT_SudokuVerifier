@@ -274,3 +274,5 @@ EditAction 1474029324999 SudokuVerifier.java 1230 3 9 0
 EditAction 1474029330694 SudokuVerifier.java 1236 3 9 0
 EditAction 1474029333993 SudokuVerifier.java 1241 3 9 0
 EditAction 1474029369633 SudokuVerifier.java 1277 3 7 0
+CompilationAction 1474029371035 SudokuVerifier.java
+EditAction 1474029378332 SudokuVerifier.java 1322 3 10 0
