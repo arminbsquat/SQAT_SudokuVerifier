@@ -30,7 +30,9 @@ public class SudokuVerifier {
 		}
 		
 		//test row for duplicates
-		
+		for(int j = 0; j < 9; j++) {
+			
+		}
 	}
 	
 	public boolean allNumbersPositive() {
