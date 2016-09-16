@@ -72,6 +72,7 @@ public class SudokuVerifier {
 			searchForThisNumber = singleRow[singleRowCounter];
 			for(int j = 0; j < singleRow.length; j++ ) {
 				if(singleRow[j] == searchForThisNumber) {
+					replica++; 
 					return false;
 				}
 			}
