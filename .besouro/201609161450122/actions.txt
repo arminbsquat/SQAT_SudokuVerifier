@@ -321,3 +321,9 @@ CompilationAction 1474029628310 SudokuVerifier.java
 RefactoringAction 1474029633110 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
 CompilationAction 1474029634949 SudokuVerifier.java
 EditAction 1474029663629 SudokuVerifier.java 1484 3 7 0
+CompilationAction 1474029666296 SudokuVerifier.java
+CompilationAction 1474029666297 SudokuVerifier.java
+CompilationAction 1474029676159 SudokuVerifier.java
+CompilationAction 1474029676161 SudokuVerifier.java
+CompilationAction 1474029676328 SudokuVerifier.java
+EditAction 1474029689182 SudokuVerifier.java 1557 3 7 0
