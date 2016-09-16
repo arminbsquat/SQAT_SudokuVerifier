@@ -22,7 +22,9 @@ public class SudokuVerifier {
 	
 	public void noReplicaInSingleRow() {
 		int[] singleRow = new int[9]; 
-		
+		for(int i = 0; i < 9; i++) {
+			
+		}
 	}
 	
 	public boolean allNumbersPositive() {
