@@ -4,6 +4,13 @@ public class SudokuVerifier {
 	public int[] candidateSolutionIntArray;
 	int offset = 0;
 	
+	
+	/*
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
 	public int verify(String candidateSolution) {
 		
 		// test R1: all numbers are positive
