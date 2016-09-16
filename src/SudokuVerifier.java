@@ -21,6 +21,12 @@ public class SudokuVerifier {
 			}
 		}
 		
+		if(failed == 0) { 
+			return true;
+		}
+		else {
+			return false;
+		}
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
