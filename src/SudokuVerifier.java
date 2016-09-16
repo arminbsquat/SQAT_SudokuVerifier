@@ -17,7 +17,7 @@ public class SudokuVerifier {
 				
 			} else
 			{
-				
+				failed = 1;
 			}
 		}
 		
