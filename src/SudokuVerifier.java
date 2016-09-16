@@ -1,6 +1,6 @@
 
 public class SudokuVerifier {
-	String candidateSolution;
+	byte[] candidateSolution;
 	
 	public int verify(String candidateSolution) {
 		this.candidateSolution = candidateSolution;

@@ -15,3 +15,5 @@ RefactoringAction 1474026706983 SudokuVerifier.java RENAME candidateSolution=>St
 EditAction 1474026708943 SudokuVerifier.java 312 2 2 0
 CompilationAction 1474026710349 SudokuVerifier.java
 EditAction 1474026723877 SudokuVerifier.java 349 2 3 0
+CompilationAction 1474026725235 SudokuVerifier.java
+EditAction 1474026731596 SudokuVerifier.java 349 2 3 0
