@@ -10,3 +10,6 @@ CompilationAction 1474026659838 SudokuVerifier.java
 CompilationAction 1474026672903 SudokuVerifier.java
 CompilationAction 1474026673067 SudokuVerifier.java
 EditAction 1474026690936 SudokuVerifier.java 288 2 2 0
+CompilationAction 1474026692362 SudokuVerifier.java
+RefactoringAction 1474026706983 SudokuVerifier.java RENAME candidateSolution=>String candidateSolut FIELD
+EditAction 1474026708943 SudokuVerifier.java 312 2 2 0

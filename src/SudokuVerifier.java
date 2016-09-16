@@ -11,7 +11,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean allNumbersPositive() {
-		
+		byte[] candidateSolution
 		
 		
 	}
