@@ -46,11 +46,11 @@ public class SudokuVerifierTest {
 		assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3), is(-4)));
 	}
 	
-	@Test
-	public void test_noReplicaInEveryColumn_noneFound() {
+	@Test 
+	public void test_noReplicaInEveryRow_noneFound() {
 		SudokuVerifier sV = new SudokuVerifier(); 
 		String candidateSolutionString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
-		assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3), is(-4)));
+		assertThat(sV.verify(candidateSolutionString), anyOf(is(-1), is(-3)));
 	}
 	
 	@Test
