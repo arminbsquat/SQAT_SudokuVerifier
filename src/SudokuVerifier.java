@@ -8,6 +8,8 @@ public class SudokuVerifier {
 		// test R1: all numbers are positive
 		if(this.allNumbersPositive()) {
 			
+		} else {
+			
 		}
 		// returns 0 if the candidate solution is correct
 		return 0;
