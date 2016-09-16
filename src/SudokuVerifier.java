@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class SudokuVerifier {
 	public int[] candidateSolutionIntArray;
@@ -30,14 +31,15 @@ public class SudokuVerifier {
 			int[] localCandidateSolutionIntArray = new int[candidateSolutionIntArray.length];
 			
 			
-			ArrayList<string> candidateSolutionStringList = new candidateSolutionStringList<String>();
+			ArrayList<String> candidateSolutionStringList = new ArrayList<String>();
 			
 			
 			
 			for(int j = 0; j < candidateSolutionCharArray.length; j++) {
 				if(candidateSolutionCharArray[j] == '-') {
 					// add - and number together to get a single number
-					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
+					//this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j] + candidateSolutionCharArray[j+1]);
+					candidateSolutionStringList.add(e)
 					j++;
 				} else {
 					this.candidateSolutionIntArray[j] = Character.getNumericValue(candidateSolutionCharArray[j]);
