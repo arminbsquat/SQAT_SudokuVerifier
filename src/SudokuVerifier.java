@@ -19,7 +19,7 @@ public class SudokuVerifier {
 	public boolean noReplicaInEveryRow() {
 		int successCounter = 0;
 		
-		while(successCounter != 9) 
+		while(successCounter < 9) 
 		{
 			if(!(this.noReplicaInSingleRow())) {
 				return false;
