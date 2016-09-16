@@ -541,3 +541,12 @@ EditAction 1474031870310 SudokuVerifier.java 2023 5 18 0
 EditAction 1474031995830 SudokuVerifierTest.java 1335 4 11 3
 CompilationAction 1474031997431 SudokuVerifierTest.java
 EditAction 1474032079449 SudokuVerifier.java 2065 5 18 0
+RefactoringAction 1474032179598 SudokuVerifierTest.java ADD import org.o IMPORT
+RefactoringAction 1474032180610 SudokuVerifierTest.java REMOVE import org.o IMPORT
+RefactoringAction 1474032189120 SudokuVerifierTest.java ADD import org.hamrest.CoreM IMPORT
+RefactoringAction 1474032200137 SudokuVerifierTest.java RENAME import org.hamrest.CoreM=>import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474032203650 SudokuVerifierTest.java REMOVE import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474032207180 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+CompilationAction 1474032207659 SudokuVerifierTest.java
+RefactoringAction 1474032219211 SudokuVerifierTest.java RENAME import org.hamcrest.CoreMatchers.*=>import org.hamrest.CoreMatchers.* IMPORT
+EditAction 1474032219864 SudokuVerifierTest.java 1376 4 11 3

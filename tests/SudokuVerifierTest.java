@@ -1,5 +1,5 @@
 import static org.junit.Assert.*;
-
+import static org.hamrest.CoreMatchers.*;
 import org.junit.Test;
 
 public class SudokuVerifierTest {
