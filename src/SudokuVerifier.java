@@ -15,10 +15,10 @@ public class SudokuVerifier {
 		this.convertToIntArray(candidateSolution); // only convert if every number is positive
 		
 		// test R3: noReplicaInRow
-		
 		if(!(this.noReplicaInEveryRow())) {
 			return -3;
 		}
+		
 		return 0;
 	}
 	
