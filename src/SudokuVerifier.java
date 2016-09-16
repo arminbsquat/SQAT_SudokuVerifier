@@ -27,7 +27,6 @@ public class SudokuVerifier {
 		
 		// test R3: noReplicaInRow
 		if(!(this.noReplicaInEveryRow())) {
-			System.out.print("-3");
 			return -3;
 		}
 		
