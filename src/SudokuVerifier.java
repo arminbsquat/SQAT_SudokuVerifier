@@ -30,7 +30,7 @@ public class SudokuVerifier {
 		}
 		
 		//test row for duplicates
-		for(int j = 0; j < 9; j++) {
+		for(int singleRowCounter = 0; singleRowCounter < 9; singleRowCounter++) {
 			
 		}
 	}
