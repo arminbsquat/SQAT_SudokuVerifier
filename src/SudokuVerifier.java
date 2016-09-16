@@ -6,9 +6,15 @@ public class SudokuVerifier {
 	
 	
 	/*
-	 * 
-	 * 
-	 * 
+	 * 417369825	
+	 * 632158947
+	 * 958724316
+	 * 825437169
+	 * 791586432
+	 * 346912758
+	 * 289643571
+	 * 573291684
+	 * 164875293
 	 * 
 	 */
 	public int verify(String candidateSolution) {
