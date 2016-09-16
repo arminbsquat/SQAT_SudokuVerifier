@@ -22,6 +22,7 @@ public class SudokuVerifierTest {
 	public void test_allNumbersPositive() {
 		
 	}
+	
 	@Test
 	public void testVerify() {
 		fail("Not yet implemented");
