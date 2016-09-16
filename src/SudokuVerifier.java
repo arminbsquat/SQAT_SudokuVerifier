@@ -27,6 +27,7 @@ public class SudokuVerifier {
 		else {
 			return false;
 		}
+		
 	}
 	
 	public void convertToIntArray(String candidateSolutionString) {
