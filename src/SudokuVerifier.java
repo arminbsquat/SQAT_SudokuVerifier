@@ -2,14 +2,12 @@ import java.util.ArrayList;
 
 public class SudokuVerifier {
 	public int[] candidateSolutionIntArray;
-	String candidateSolutionString;
 	int offset = 0;
 	
 	public int verify(String candidateSolution) {
-		this.candidateSolutionString = candidateSolution;
 		
 		// test R1: all numbers are positive
-		if(!(this.allNumbersPositive(String candidateSolution))) {
+		if(!(this.allNumbersPositive(candidateSolution))) {
 			return -1;
 		} 
 		this.convertToIntArray(candidateSolution); // only convert if every number is positive
