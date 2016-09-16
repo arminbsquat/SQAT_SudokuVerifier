@@ -30,7 +30,7 @@ public class SudokuVerifier {
 			int[] localCandidateSolutionIntArray = new int[candidateSolutionIntArray.length];
 			
 			
-			ArrayList<string> candidateSolution
+			ArrayList<string> candidateSolutionStringList = new candidateSolutionStringList<String>();
 			
 			
 			
