@@ -24,7 +24,7 @@ public class SudokuVerifier {
 	public void noReplicaInSingleRow() {
 		int[] singleRow = new int[9]; 
 		
-		// add next 9 elements to singleRow
+		// build a row to test
 		for(int i = 0; i < 9; i++) {
 			singleRow[i] = candidateSolutionIntArray[offset + i];
 		}
