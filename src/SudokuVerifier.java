@@ -34,7 +34,9 @@ public class SudokuVerifier {
 		for(int singleRowCounter = 0; singleRowCounter < singleRow.length; singleRowCounter++) {
 			searchForThisNumber = singleRow[singleRowCounter];
 			for(int j = 0; j < singleRow.length; j++ ) {
-				
+				if(singleRow[j] == searchForThisNumber) {
+					
+				}
 			}
 		}
 	}
