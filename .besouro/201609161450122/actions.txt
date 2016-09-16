@@ -563,3 +563,27 @@ EditAction 1474032279077 SudokuVerifierTest.java 1377 4 11 3
 RefactoringAction 1474032305279 SudokuVerifier.java ADD boolean noReplicaInSingleRow()/2 METHOD
 EditAction 1474032310900 SudokuVerifier.java 2613 6 23 0
 EditAction 1474032320040 SudokuVerifier.java 2616 6 23 0
+CompilationAction 1474032321729 SudokuVerifier.java
+CompilationAction 1474032323981 SudokuVerifier.java
+CompilationAction 1474032324142 SudokuVerifier.java
+CompilationAction 1474032397752 SudokuVerifier.java
+CompilationAction 1474032398194 SudokuVerifier.java
+CompilationAction 1474032399674 SudokuVerifier.java
+CompilationAction 1474032399832 SudokuVerifier.java
+CompilationAction 1474032405851 SudokuVerifier.java
+CompilationAction 1474032405991 SudokuVerifier.java
+CompilationAction 1474032445325 SudokuVerifier.java
+CompilationAction 1474032445474 SudokuVerifier.java
+CompilationAction 1474032445475 SudokuVerifier.java
+CompilationAction 1474032449577 SudokuVerifier.java
+CompilationAction 1474032449578 SudokuVerifier.java
+CompilationAction 1474032449737 SudokuVerifier.java
+CompilationAction 1474032449738 SudokuVerifier.java
+CompilationAction 1474032452905 SudokuVerifier.java
+CompilationAction 1474032452907 SudokuVerifier.java
+CompilationAction 1474032453068 SudokuVerifier.java
+CompilationAction 1474032463611 SudokuVerifier.java
+CompilationAction 1474032463805 SudokuVerifier.java
+CompilationAction 1474032472664 SudokuVerifier.java
+RefactoringAction 1474032494563 SudokuVerifier.java ADD boolean noReplicaInEveryRow()/2 METHOD
+EditAction 1474032498850 SudokuVerifier.java 2921 7 26 0

@@ -63,22 +63,40 @@ public class SudokuVerifier {
 	public boolean noReplicaInSingleColumn() {
 		int[] singleColumn = new int[9]; 
 		
-		// build a row to test
-		for(int i = 0; i < 9; i++) {
-			singleRow[i] = candidateSolutionIntArray[offset + i];
+		// build a column to test
+		for(int i = 0; i < 81; i = i+9) {
+			singleColumn[i] = candidateSolutionIntArray[offset + i];
 		}
 		
 		int searchForThisNumber;
 		//test row for duplicates
-		for(int singleRowCounter = 0; singleRowCounter < singleRow.length; singleRowCounter++) {
-			searchForThisNumber = singleRow[singleRowCounter];
-			for(int j = 0; j < singleRow.length; j++ ) {
-				if(singleRow[j] == searchForThisNumber) {
+		for(int singleColumnCounter = 0; singleColumnCounter < singleColumn.length; singleColumnCounter++) {
+			searchForThisNumber = singleColumn[singleColumnCounter];
+			for(int j = 0; j < singleColumn.length; j++ ) {
+				if(singleColumn[j] == searchForThisNumber) {
 					return false;
 				}
 			}
 		}
 		return true;
+	}
+	
+	public boolean noReplicaInEveryColumn() {
+		int successCounter = 0;
+		
+		while(successCounter < 9) 
+		{
+			if(!(this.noReplicaInSingleRow())) {
+				return false;
+			} else 
+			{
+				this.offset = this.offset + 9;
+				successCounter++;
+			}
+		}
+		
+		return true;
+	
 	}
 	
 	public boolean allNumbersPositive(String candidateSolutionString) {
