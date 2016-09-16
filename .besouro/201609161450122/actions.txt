@@ -664,3 +664,7 @@ EditAction 1474033656627 SudokuVerifier.java 3272 7 29 0
 UnitTestCaseAction 1474033664172 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474033664172 SudokuVerifierTest.java FAIL
 EditAction 1474033668670 SudokuVerifierTest.java 1679 5 14 4
+UnitTestCaseAction 1474033670874 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474033670875 SudokuVerifierTest.java FAIL
+RefactoringAction 1474033677150 SudokuVerifierTest.java RENAME test_noReplicaInEveryColumn()=>void test_noReplicaInEveryColumn_non() METHOD
+EditAction 1474033678703 SudokuVerifierTest.java 1689 5 14 4
