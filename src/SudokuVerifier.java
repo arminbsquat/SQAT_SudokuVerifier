@@ -30,7 +30,9 @@ public class SudokuVerifier {
 			
 			// add - and number together to 1 number
 			for(int j = 0; j < candidateSolutionCharArray.length; j++) {
-				
+				if(candidateSolutionCharArray[i] == '-') {
+					
+				}
 				
 			}
 			
