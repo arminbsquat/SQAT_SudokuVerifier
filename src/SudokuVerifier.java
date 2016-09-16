@@ -60,6 +60,27 @@ public class SudokuVerifier {
 		return true;
 	}
 	
+	public boolean noReplicaInSingleColumn() {
+		int[] singleRow = new int[9]; 
+		
+		// build a row to test
+		for(int i = 0; i < 9; i++) {
+			singleRow[i] = candidateSolutionIntArray[offset + i];
+		}
+		
+		int searchForThisNumber;
+		//test row for duplicates
+		for(int singleRowCounter = 0; singleRowCounter < singleRow.length; singleRowCounter++) {
+			searchForThisNumber = singleRow[singleRowCounter];
+			for(int j = 0; j < singleRow.length; j++ ) {
+				if(singleRow[j] == searchForThisNumber) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+	
 	public boolean allNumbersPositive(String candidateSolutionString) {
 		char[] candidateSolutionCharArray = candidateSolutionString.toCharArray();
 		for(int i = 0; i < candidateSolutionCharArray.length; i++) {

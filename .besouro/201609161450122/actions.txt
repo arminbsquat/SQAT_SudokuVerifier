@@ -560,3 +560,5 @@ EditAction 1474032263596 SudokuVerifierTest.java 1387 4 11 3
 RefactoringAction 1474032277309 SudokuVerifierTest.java RENAME import org.hamcrest.CoreMatchers.*=>import org.hamrest.CoreMatchers.* IMPORT
 RefactoringAction 1474032278826 SudokuVerifierTest.java RENAME import org.hamrest.CoreMatchers.*=>import org.hamcrest.CoreMatchers.* IMPORT
 EditAction 1474032279077 SudokuVerifierTest.java 1377 4 11 3
+RefactoringAction 1474032305279 SudokuVerifier.java ADD boolean noReplicaInSingleRow()/2 METHOD
+EditAction 1474032310900 SudokuVerifier.java 2613 6 23 0
