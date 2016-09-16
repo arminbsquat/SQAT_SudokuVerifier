@@ -7,14 +7,14 @@ public class SudokuVerifier {
 		
 		// test R1: all numbers are positive
 		if(this.allNumbersPositive()) {
-			
+			return 0;
 		} else {
 			
 		}
 		// returns 0 if the candidate solution is correct
 		return 0;
 		
-		//check
+	
 	}
 	
 	public boolean allNumbersPositive() {
