@@ -23,7 +23,7 @@ public class SudokuVerifier {
 			this.offset = this.offset + 9;
 			successCounter++;
 		}
-		this.noReplicaInSingleRow();
+
 		
 	
 	}
